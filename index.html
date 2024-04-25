@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    .maindiv{
+        margin: 8px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between ;
+    }
+    .icons{
+        display: flex;
+        
+    }
+    .navbarside{
+        padding: 1.5px;
+        
+    }
+    .newarrival{
+        position: relative;
+        bottom: 500px;
+        margin: 25px;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: -220px;
+    }
+    .shopnow{
+        height: 50px;
+        width: 120px;
+        background-color: black;
+        color: aliceblue;
+        border: 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .shopnow:hover{
+        background-color:rgb(122, 121, 117);
+        color: black;
+    }
+    .container1{
+        display: flex;
+        margin-bottom: -30px;
+    }
+    .itemname{
+        margin: 25px;
+        margin-left: 25px;
+    }
+    .newpants{
+        position: relative;
+        bottom: 255px;
+        background-color: black;
+        color: white;
+        width: 32px;
+        margin: 1px;
+        margin-bottom:-18px ;
+    }
+    .buy{
+        position: relative;
+        bottom: 220px;
+        background-color: black;
+        width: 100px;
+        color: aliceblue;
+        padding: 5px;
+        text-align: center;
+        margin-left: 70px;
+        height: 25px;
+        transition: all 1ms;
+        margin-bottom: -60px;
+        visibility: hidden;
+    }
+    .buy:hover{
+        /* display: block; */
+        visibility:visible;
+        width: 500px;
+    }
+
+    #by.buy:hover{
+        display: block;
+    }
+    .container2{
+        display: flex;
+    }
+    .itemdetails{
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(123, 121, 121);
+    }
+    .price{
+        font-weight: bold;
+    }
+    .subscribe{
+        background-color: black;
+    }
+    .mainsubscribe{
+        color: red;
+        padding: 25PX;
+        font-size: xxx-large;
+    }
+    .offer{
+        color: white;
+        margin: 25px;
+    }
+    .email{
+        height: 25px;
+        width: 700px;
+        margin-left: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: x-large;
+    }
+    .subscribebutton{
+        height: 50px;
+        width: 110px;
+        color: azure;
+        background-color: red;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: larger;
+        border: 0px;
+        margin: 25px;
+    }
+    .subscribebutton:hover{
+        background-color: grey;
+        color: white ;
+    }
+    .container3{
+        display: flex;
+        background-color: rgb(239, 239, 239);
+    }
+    .detailsandabout1{
+          margin-left: 50px;
+    }
+    .detailsandabout2{
+          margin-left: 250px;
+
+    }
+    .detailsandabout3{
+          margin-left: 250px;
+    }
+    .inputdata{
+        margin: 10px;
+        height: 30px;
+        width: 350px;
+    }
+    .contact{
+        text-align: center;
+    }
+    .question{
+        text-align: center;
+    }
+    .sendingbutton{
+        height: 50px;
+        width: 356px;
+        margin-top: 5px;
+        margin-left: 10px;
+        background-color: red;
+        color: white;
+        font-size: large;
+        font-family: cursive;
+        border: 0px;
+    }
+    .sendingbutton:hover{
+        background-color: rgb(58, 57, 56);
+        color: white;
+    }
+    .aboutus{
+        color: black;
+    }
+    .footer{
+       background-color: black;
+       padding: 40px;
+       color: white;
+       font-size: large;
+       text-align: center;
+
+    }
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+              <div class="navbar">
+             <div> <h1> Jeans </h1> </div>
+               <div class="icons">
+               <h1 class="navbarside"> <i class="fa-solid fa-cart-shopping"></i></h1>
+               <h1 class="navbarside">  <i class="fa-solid fa-magnifying-glass"></i> </h1>
+               </div>
+            </div>
+
+           <div class="image">
+            <img src="https://www.w3schools.com/w3images/jeans.jpg" height="500" width="100%">
+           </div>
+           <div class="newarrival">
+                <h1> New Arrival's</h1>
+                <h1> collection 2016 </h1>
+                <button class="shopnow"> Shop Now </button>
+           </div>
+           <h1> 8 Item's </h1>
+             <div class="container1">
+
+                <div class="itemname">
+                    <img src="https://www.w3schools.com/w3images/jeans1.jpg" height="270px" width="220px">
+                    <p class="itemdetails"> Ripped Skinny Jeans </p>
+                    <p class="price"> $24.99</p>
+                </div>
+               
+                <div class="itemname">
+                    <img src="https://www.w3schools.com/w3images/jeans2.jpg" height="270px" width="220px">
+                    <p class="newpants" > New </p>
+                    <p class="itemdetails"> Mega Ripped Jeans
+                    </p>
+                    <p class="price"> $19.99 </p>
+                    <div id="by"><p class="buy"> Buy Now  <i class="fa-solid fa-cart-shopping"></i> </p>
+                    </div></div>
+
+                <div class="itemname">
+                    <img src="https://www.w3schools.com/w3images/jeans3.jpg" height="270px" width="220px">
+                    <p class="itemdetails"> Washed Skinny Jeans </p>
+                    <p class="price"> $20.50 </p>
+                </div>
+
+                <div class="itemname">
+                    <img src="https://www.w3schools.com/w3images/jeans4.jpg" height="270px" width="220px">
+                    <p class="itemdetails">Vintage Skinny Jeans </p>
+                    <p class="price"> $14.99</p>
+                </div>
+             </div>
+            <div class="container2">
+                <div class="itemname">
+                    <img src="https://www.w3schools.com/w3images/jeans2.jpg" height="270px" width="220px">
+                    <p class="itemdetails"> Mega Ripped Jeans </p>
+                    <p class="price"> $19.99 </p>
+                </div>
+                <div class="itemname">
+                    <img src="https://www.w3schools.com/w3images/jeans3.jpg" height="270px" width="220px">
+                    <p class="itemdetails"> Washed Skinny Jeans
+                    </p>
+                    <p class="price"> $20.50 </p>
+                </div>
+                <div class="itemname">
+                    <img src="https://www.w3schools.com/w3images/jeans4.jpg" height="270px" width="220px">
+                    <p class="itemdetails"> Vintage Skinny Jeans
+                    </p>
+                    <p class="price"> $14.99 </p>
+                </div>
+                <div class="itemname">
+                    <img src="https://www.w3schools.com/w3images/jeans1.jpg" height="270px" width="220px">
+                    <p class="itemdetails"> Ripped Skinny Jeans </p>
+                    <p class="price"> $24.99 </p>
+                </div>
+            </div>
+            <div class="subscribe">
+                <h1 class="mainsubscribe"> subscribe </h1>
+                <p class="offer"> To get special offers and VIP treatment: </p>
+                <input class="email" type="email" placeholder="email">    <br>
+                <button class="subscribebutton"> Subscribe </button>  
+            </div>
+            <div class="container3">
+                <div class="detailsandabout1">
+                    <h1 class="contact"> contact </h1>
+                    <p class="question"> question ? Go Head.</p>
+                    <input type="text" placeholder="name" class="inputdata">  <br>
+                    <input type="email" placeholder="Email" class="inputdata">  <br>
+                    <input type="text" placeholder="Subject" class="inputdata"> <br>
+                    <input type="text" placeholder="Message" class="inputdata"> <br>
+                    <button class="sendingbutton"> Send </button>
+                </div>
+                <div class="detailsandabout2">
+                    <h1> About </h1>
+                        <p> <a href="" class="aboutus"> About us  </a> </p>
+                        <p> <a href="" class="aboutus"> We're Hiring  </a> </p>
+                        <p> <a href="" class="aboutus"> Support  </a> </p>
+                        <p> <a href="" class="aboutus"> Find store  </a> </p>
+                        <p> <a href="" class="aboutus"> Shipment  </a> </p>
+                        <p> <a href="" class="aboutus"> Payment  </a> </p>
+                        <p> <a href="" class="aboutus"> Gift cart  </a> </p>
+                        <p> <a href="" class="aboutus"> Return  </a> </p>
+                        <p> <a href="" class="aboutus"> Help  </a> </p>
+                    </div>
+                    <div class="detailsandabout3">
+                        <h1> Store </h1>
+                        <p> <i class="fa-sharp fa-solid fa-location-dot"></i>  Company name </p>
+                        <p> <i class="fa-solid fa-phone"></i> 0044123456 </p>
+                        <p> <i class="fa-solid fa-envelope"></i> Email </p>
+                        <h1> We accept </h1>
+                        <p> <i class="fa-brands fa-cc-amex"></i> Amex </p>
+                        <p> <i class="fa-solid fa-credit-card"></i> credit card </p>
+                        <p> <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-whatsapp"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-x-twitter"></i> <i class="fa-brands fa-linkedin"></i></p>
+                    </div>
+            </div>
+            <footer class="footer">
+                <p> Powered by W3 school</p>
+            </footer>
+    </div>        
+</body>
+</html>
